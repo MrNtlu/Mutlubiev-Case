@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">MutlubievCase</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    
+    <string-array name="provinces">
+        <item>Ankara</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+    </string-array>
+
+    <string-array name="districtIstanbul">
+        <item>İlçe Seçin</item>
+        <item>Bağcılar</item>
+        <item>Beşiktaş</item>
+        <item>Beykoz</item>
+        <item>Esenler</item>
+        <item>Sancaktepe</item>
+        <item>Üsküdar</item>
+    </string-array>
+
+    <string-array name="districtAnkara">
+        <item>İlçe Seçin</item>
+        <item>Altındağ</item>
+        <item>Çankaya</item>
+        <item>Keçiören</item>
+        <item>Yenmahalle</item>
+    </string-array>
+
+    <string-array name="districtIzmir">
+        <item>İlçe Seçin</item>
+        <item>Bornova</item>
+        <item>Buca</item>
+        <item>Karşıyaka</item>
+        <item>Konak</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>08:00</item>
+        <item>08:30</item>
+        <item>09:00</item>
+        <item>09:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+    </string-array>
+    
+    <string-array name="houseSize">
+        <item>1+0</item>
+        <item>1+1</item>
+        <item>2+1</item>
+        <item>3+1</item>
+        <item>4+1</item>
+    </string-array>
+
+    <string-array name="cleaningFrequency">
+        <item>Haftada Bir</item>
+        <item>İki Haftada Bir</item>
+        <item>Tek Sefer</item>
+    </string-array>
+</resources>

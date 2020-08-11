@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/mainPageFragment">
+
+    <fragment
+        android:id="@+id/mainPageFragment"
+        android:name="com.example.mutlubievcase.view.main.MainPageFragment"
+        android:label="fragment_main_page"
+        tools:layout="@layout/fragment_main_page" />
+    <fragment
+        android:id="@+id/liveHelpFragment"
+        android:name="com.example.mutlubievcase.view.main.LiveChatFragment"
+        android:label="fragment_live_chat"
+        tools:layout="@layout/fragment_live_chat" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.mutlubievcase.view.main.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/myTeamFragment"
+        android:name="com.example.mutlubievcase.view.main.MyTeamFragment"
+        android:label="fragment_my_team"
+        tools:layout="@layout/fragment_my_team" />
+    <activity
+        android:id="@+id/serviceOrderActivity"
+        android:name="com.example.mutlubievcase.view.service.ServiceOrderActivity"
+        android:label="activity_service_order"
+        tools:layout="@layout/activity_service_order" />
+</navigation>

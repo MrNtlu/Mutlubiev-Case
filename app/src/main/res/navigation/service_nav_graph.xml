@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/service_nav_graph"
+    app:startDestination="@id/serviceOrderFragment">
+
+    <fragment
+        android:id="@+id/serviceOrderFragment"
+        android:name="com.example.mutlubievcase.view.service.ServiceOrderFragment"
+        android:label="fragment_service_order"
+        tools:layout="@layout/fragment_service_order" >
+        <action
+            android:id="@+id/action_serviceOrderFragment_to_orderSelectionFragment"
+            app:destination="@id/orderSelectionFragment"
+            app:exitAnim="@anim/slide_down" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderSelectionFragment"
+        android:name="com.example.mutlubievcase.view.service.OrderSelectionFragment"
+        android:label="fragment_order_selection"
+        tools:layout="@layout/fragment_order_selection" />
+</navigation>
