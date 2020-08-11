@@ -1,4 +1,3 @@
 # Mutlubiev-Case
-Mutlubiev Application Test
 
-[.apk File](MutlubievCase.apk)
+###[Click to download .apk file](MutlubievCase.apk)
